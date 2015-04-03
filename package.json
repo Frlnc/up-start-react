@@ -1,0 +1,8 @@
+{
+  "name": "up-start-react",
+  "version": "1.0.0",
+  "description": "An up-start for ReactJS.",
+  "repository": "git@github.com:frlnc/up-start-react.git",
+  "author": "Connor S. Parks <Connor@ConnorVG.tv>",
+  "license": "MIT"
+}
