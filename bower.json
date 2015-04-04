@@ -1,0 +1,27 @@
+{
+  "name": "up-start-react",
+  "version": "1.0.0",
+  "description": "An up-start for ReactJS.",
+  "repository": "git@github.com:frlnc/up-start-react.git",
+  "authors": [
+    "Connor S. Parks <Connor@ConnorVG.tv>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true,
+  "dependencies": {
+    "react": "~0.13.1"
+  },
+  "overrides": {
+    "react": {
+      "development": "react.js",
+      "production": "react.min.js"
+    }
+  }
+}

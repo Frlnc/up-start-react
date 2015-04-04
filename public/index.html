@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+
+    <title>Up-Start ReactJS</title>
+
+    <script src="/assets/scripts/vendor.js"></script>
+    <script src="/assets/scripts/components.js"></script>
+    <script src="/assets/scripts/app.js"></script>
+
+    <style>
+        @import url(http://fonts.googleapis.com/css?family=Lato);
+
+        html {
+            font-family: 'Lato', sans-serif;
+            font-size: 18px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .no-js {
+            display: table-cell;
+            height: 100vh;
+            width: 100vw;
+            padding: 0 16px;
+            margin: 0;
+            text-align: center;
+            vertical-align: middle;
+            background: #de5432;
+            color: #fff;
+            font-size: 1.35rem;
+        }
+
+        @media screen and (max-width: 960px) {
+            .no-js {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media screen and (max-width: 720px) {
+            .no-js {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media screen and (max-width: 640px) {
+            .no-js {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p class="no-js">For full functionality of this site it is necessary to enable JavaScript.<br><br>Here are the <a href="http://www.enable-javascript.com/" target="_blank"> instructions how to enable JavaScript in your web browser</a>.</p>
+
+    <script>app.render();app.boot()</script>
+</body>
+</html>

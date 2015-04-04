@@ -1,1 +1,40 @@
-node_modules/
+### SublimeText
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+
+
+### Sass
+.sass-cache
+*.css.map
+
+
+### JetBrains
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+
+### Node
+logs
+*.log
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+build/Release
+node_modules
+bower_components

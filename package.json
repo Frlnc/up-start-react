@@ -3,6 +3,24 @@
   "version": "1.0.0",
   "description": "An up-start for ReactJS.",
   "repository": "git@github.com:frlnc/up-start-react.git",
-  "author": "Connor S. Parks <Connor@ConnorVG.tv>",
-  "license": "MIT"
+  "authors": [
+    "Connor S. Parks <Connor@ConnorVG.tv>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-jshint": "^1.10.0",
+    "gulp-jstransform": "^1.0.0",
+    "gulp-livereload": "^3.8.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-react": "^3.0.1",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.2.2",
+    "jshint-jsx": "^0.4.1",
+    "jshint-stylish": "^1.0.1",
+    "main-bower-files": "^2.6.2"
+  }
 }
