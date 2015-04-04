@@ -4,12 +4,10 @@ class Dispatcher {
    * Constructs the Dispatcher.
    *
    * @param {Array}
-   * @param {Array}
    * @return {void}
    */
-  constructor(listeners, promises) {
+  constructor(listeners) {
     this.listeners = listeners || [];
-    this.promises = promises || [];
   }
 
   /**
@@ -41,7 +39,7 @@ class Dispatcher {
     var rejects = [];
     var listeners = this.listeners.filter((listener) => listener.types.indexOf(type) !== -1);
 
-    var promises = listeners.map(function (_, i) {
+    listeners.map(function (_, i) {
       return new Promise(function (resolve, reject) {
         resolves[i] = resolve;
         rejects[i] = reject;
